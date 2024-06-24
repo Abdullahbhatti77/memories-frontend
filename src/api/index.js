@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const url = "https://memories-app-backend-gamma.vercel.app/posts";
-// const url=`${window.location.origin}/posts`
+const url = "https://memories-backend-production-7929.up.railway.app/posts";
 
 export const fetchPosts = () => axios.get(url);
 
